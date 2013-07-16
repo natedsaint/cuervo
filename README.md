@@ -46,7 +46,10 @@ the dependencies set up with `npm install`.
 When the dependencies have been installed, you should be able to
 change to the directory that contains your blog files, and run...
 
-    nodejs /path/to/heckle/heckle.js
+    nodejs /path/to/cuervo/render.js
+
+I've tried to make cuervo into a package so that it can be implemented. As of now, the only
+export is the generate method, which walks through the current directory and builds everything.
 
 Along the same vein as [Jekyll][2] and [Heckle][1], it parses a `_config.yml` 
 and treats `_posts`, `_layouts`, and
