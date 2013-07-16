@@ -56,7 +56,7 @@ and treats `_posts`, `_layouts`, and
 `_includes` dirs. Your templates should be in
 [Mustache][3] syntax, but they will also be parsed using markdown.  
 
-[3]: https://mustache.github.io
+[3]: https://mustache.github.com
 
 I'm doing my best to follow the best development standards I know in this project, but
 I'm bound to screw things up. If you get lost, check out the source!
