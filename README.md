@@ -1,4 +1,4 @@
-# Heckle
+# Cuervo 
 
 A fork of a clone! [Heckle][1] gave me the idea, which Marijn Haverbeke describes as a "minimal [Jekyll][2] clone in node.js."
 
