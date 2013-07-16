@@ -50,8 +50,8 @@ change to the directory that contains your blog files, and run...
 
 Along the same vein as [Jekyll][2] and [Heckle][1], it parses a `_config.yml` 
 and treats `_posts`, `_layouts`, and
-`_includes` dirs Your templates should be in
-[Mustache][3] syntax. 
+`_includes` dirs. Your templates should be in
+[Mustache][3] syntax, but they will also be parsed using markdown.  
 
 [3]: https://mustache.github.io
 
