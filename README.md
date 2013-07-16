@@ -13,14 +13,14 @@ Also like Marijn, I don't like Ruby. However, unlike Marijn, I DO enjoy logic-le
 
 So the chain goes like this: 
 
--Jekyll is Ruby with Liquid as the templating engine.
+- Jekyll is Ruby with Liquid as the templating engine.
 
--Heckle is JavaScript with Mold (programmable template extravaganza) as
+- Heckle is JavaScript with Mold (programmable template extravaganza) as
 the templating engine.
 
 And NOW:
 
--Cuervo is JavaScript with Mustache as the templating engine.
+- Cuervo is JavaScript with Mustache as the templating engine.
 
 
 ## Cuervo? Are you drunk?
