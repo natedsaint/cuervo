@@ -27,7 +27,7 @@ And NOW:
 
 At the time of writing... maybe.
 
-But cuervo is the spanish word for Crow. Follow my logc here: Jekyll was named after the mad 
+But cuervo is the spanish word for Crow. Follow my logic here: Jekyll was named after the mad 
 scientist from Dr. Jekyll and Mr. Hyde. Heckle was transferring that logic to the magpies 
 from the old Terry Toons animations. I'm following the common conception that they were the crows
 from the old Dumbo cartoon, and giving them a classy Mexican mustache. It's so removed 
