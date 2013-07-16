@@ -17,7 +17,7 @@
     "js-yaml": "1.x.x",
   },
   "bugs": "http://github.com/natedsaint/cuervo/issues",
-  "keywords": ["Jekyll", "Blog","Heckle"],
+  "keywords": ["Jekyll","Blog","Heckle"],
   "homepage": "https://github.com/natedsaint/cuervo",
   "author": "Nathan St. Pierre <nathan@nathanstpierre.com>",
   "repositories": [{"type": "git", "url": "https://github.com/natedsaint/cuervo.git"}]

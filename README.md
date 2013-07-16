@@ -2,7 +2,7 @@
 
 A fork of a clone! [Heckle][1] gave me the idea, which Marijn Haverbeke describes as a "minimal [Jekyll][2] clone in node.js."
 
-[1]: https://github.com/marijn/heckle
+[1]: https://github.com/marijnh/heckle
 [2]: https://github.com/mojombo/jekyll
 
 ## Why?
