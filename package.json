@@ -1,0 +1,24 @@
+{
+  "name": "cuervo",
+  "version":"0.1.0",
+  "main": "cuervo.js",
+  "description": "Static site generator",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/natedsaint/cuervo/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "dateformat": "1.x.x",
+    "marked": "0.2.x",
+    "mustache":"0.7.x",
+    "rimraf": "2.x.x",
+    "js-yaml": "1.x.x",
+  },
+  "bugs": "http://github.com/natedsaint/cuervo/issues",
+  "keywords": ["Jekyll", "Blog","Heckle"],
+  "homepage": "https://github.com/natedsaint/cuervo",
+  "author": "Nathan St. Pierre <nathan@nathanstpierre.com>",
+  "repositories": [{"type": "git", "url": "https://github.com/natedsaint/cuervo.git"}]
+}
