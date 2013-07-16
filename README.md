@@ -11,7 +11,7 @@ Like Marijn, I liked the approach to managing a site taken by Jekyll.
 
 Also like Marijn, I don't like Ruby. However, unlike Marijn, I DO enjoy logic-less templates.
 
-/disclaimer: I don't hate Ruby, and as a matter of fact I'm liking it more each day, but I just have way more experience in JavaScript/
+_disclaimer: I don't hate Ruby, and as a matter of fact I'm liking it more each day, but I just have way more experience in JavaScript_
 
 So the chain goes like this: 
 
