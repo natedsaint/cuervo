@@ -15,6 +15,7 @@
     "mustache":"0.7.x",
     "rimraf": "2.x.x",
     "js-yaml": "1.x.x",
+    "codemirror": "git+https://github.com/marijnh/CodeMirror.git"
   },
   "bugs": "http://github.com/natedsaint/cuervo/issues",
   "keywords": ["Jekyll","Blog","Heckle"],
