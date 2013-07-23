@@ -76,6 +76,8 @@ function readPosts(config) {
     if (!post.tags.forEach && post.tags.split) post.tags = post.tags.split(/\s+/);
     if (d[5].match(/(md)/)) {
       post.content = marked(split.main);
+      post.summary = post.content.slice(0);
+      post.content.split(" ").splice(0,config.summaryWords).join(" "); 
       post.url = getURL(config, post);
     } else if (d[5] == "link") {
       escd = util.escapeHTML(post.url);
@@ -103,7 +105,10 @@ function gatherTags(posts) {
 }
 
 var defaults = {
-  postLink: "${name}.html"
+  postLink: "${name}.html",
+  makeRewrites: true,
+  latestNewsCount: 5,
+  summaryWords: 100
 };
 
 function readConfig() {
@@ -169,11 +174,13 @@ function getLayout(name, ctx) {
 function generate() {
   var config = readConfig(), 
       posts = readPosts(config),
+      latestPosts = posts.slice(0),
       ctx,
       partials;
   ctx = {
     site: {
       posts: posts, 
+      latestPosts: latestPosts.splice(0,config.latestNewsCount),
       tags: gatherTags(posts), 
       config: config
     },
@@ -205,21 +212,33 @@ function generate() {
         ensureDirectories(out); // make sure the directory structure is already set for this
 
         if (/\.(md|mustache)$/.test(fname) && hasFrontMatter(file)) {
-          var split = readFrontMatter(fs.readFileSync(file, "utf8"));
-          var doc = split.front;
-          var layout = getLayout(doc.layout || "page.mustache", ctx);
-          doc.content = marked(split.main);
+          var split = readFrontMatter(fs.readFileSync(file, "utf8")),
+              doc = split.front,
+              layout = getLayout(doc.layout || "page.mustache", ctx);
+          doc.content = split.main;
+          if (/\.(md)$/.test(fname)) {
+            doc.content = marked(doc.content); // parse markdown but only if (md) file
+          }
           doc.name = fname.match(/^(.*?)\.[^\.]+$/)[1];
           doc.url = file;
           out = out.replace(/\.(md|mustache)$/,".html"); // output will always be html to be parseable by browser
+          doc.content = Mustache.render(doc.content,ctx.site,ctx.partials); // allow you to use mustache inside your page content : view object is ctx.site
+          doc.summary = doc.content.slice(0);
+          doc.summary.split(" ").splice(0,config.summaryWords).join(" "); 
           pageContent = Mustache.render(layout,doc,ctx.partials);
           fs.writeFileSync(out, pageContent, "utf8");
+          var noExtension = fname.replace(/\.(md|mustache)$/,'');
+          accessfile += "RewriteRule "+noExtension+" "+fname.replace(/\.(md|mustache)$/,".html")+"\n";
         } else { // was not markdown or mustache, we'll just move it
           util.copyFileSync(file, out);
         }
       }
+      if(config.makeRewrites) {
+        fs.writeFileSync("_site/.htaccess",accessfile,"utf8");
+      }
     });
   }
+  var accessfile = "RewriteEngine On \n";
   walkDir("./"); 
 }
 
