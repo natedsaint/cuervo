@@ -48,7 +48,7 @@ the dependencies set up with `npm install`.
 When the dependencies have been installed, you should be able to
 change to the directory that contains your blog files, and run...
 
-    nodejs /path/to/cuervo/render.js
+    nodejs /path/to/cuervo.js
 
 I've tried to make cuervo into a package so that it can be implemented. As of now, the only
 export is the generate method, which walks through the current directory and builds everything.
