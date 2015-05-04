@@ -1,3 +1,4 @@
-var cuervo = require("./lib/cuervo");
+var Cuervo = require("./lib/cuervo"),
+    site = new Cuervo();
 
-cuervo.generate();
+site.generate();
