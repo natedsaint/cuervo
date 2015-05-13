@@ -15,7 +15,12 @@
     "mustache":"0.7.x",
     "rimraf": "2.x.x",
     "js-yaml": "1.x.x",
-    "codemirror": "git+https://github.com/marijnh/CodeMirror.git"
+    "codemirror": "5.2.x",
+    "jasmine":"2.3.x",
+    "minimist":"1.1.x"
+  },
+  "scripts": {
+    "test": "jasmine"
   },
   "bugs": "http://github.com/natedsaint/cuervo/issues",
   "keywords": ["Jekyll","Blog","Heckle","Cuervo"],
