@@ -1,6 +1,6 @@
 {
   "name": "cuervo",
-  "version":"0.1.0",
+  "version":"0.2.0",
   "main": "cuervo.js",
   "description": "Static site generator",
   "licenses": [
@@ -15,11 +15,16 @@
     "mustache":"0.7.x",
     "rimraf": "2.x.x",
     "js-yaml": "1.x.x",
-    "codemirror": "git+https://github.com/marijnh/CodeMirror.git"
+    "codemirror": "5.2.x",
+    "jasmine":"2.3.x",
+    "minimist":"1.1.x"
+  },
+  "scripts": {
+    "test": "jasmine"
   },
   "bugs": "http://github.com/natedsaint/cuervo/issues",
   "keywords": ["Jekyll","Blog","Heckle","Cuervo"],
   "homepage": "https://github.com/natedsaint/cuervo",
   "author": "Nathan St. Pierre <nathan@nathanstpierre.com>",
-  "repositories": [{"type": "git", "url": "https://github.com/natedsaint/cuervo.git"}]
+  "repository": {"type": "git", "url": "https://github.com/natedsaint/cuervo.git"}
 }
