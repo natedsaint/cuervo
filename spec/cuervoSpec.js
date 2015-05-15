@@ -33,5 +33,18 @@ describe("cuervo", function() {
         it("exists", function() {
             expect(typeof app.writeText).toBe("function");
         });
+        it("calls the process stdout method", function() {
+            var TEST_TEXT = "test";
+            spyOn(process.stdout,"write");
+            app.writeText(TEST_TEXT);
+            expect(process.stdout.write).toHaveBeenCalledWith(TEST_TEXT);
+        });
     });
+
+    describe("cuervo.readFrontMatter", function() {
+        it("exists", function() {
+            expect(typeof app.readFrontMatter).toBe("function");
+        });
+    });
+
 });
