@@ -36,6 +36,7 @@
     "url": "https://github.com/natedsaint/cuervo.git"
   },
   "devDependencies" : {
-    "jasmine": "2.3.x"
+    "jasmine": "2.3.x",
+    "istanbul": "0.3.x"
   }
 }
