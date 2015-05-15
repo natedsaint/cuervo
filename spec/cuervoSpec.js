@@ -22,10 +22,16 @@ describe("cuervo", function() {
         expect(Cuervo.prototype.printCuervo).toHaveBeenCalled();
         expect(newApp instanceof Cuervo).toBe(true);
     });
+
     describe("cuervo.defaults", function() {
         it("exists", function() {
             expect(typeof app.defaults).toBe("object");
         });
     });
 
+    describe("cuervo.writeText", function() {
+        it("exists", function() {
+            expect(typeof app.writeText).toBe("function");
+        });
+    });
 });
