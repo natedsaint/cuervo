@@ -1,6 +1,6 @@
 {
   "name": "cuervo",
-  "version":"0.2.0",
+  "version": "0.2.0",
   "main": "cuervo.js",
   "description": "Static site generator",
   "licenses": [
@@ -12,19 +12,30 @@
   "dependencies": {
     "dateformat": "1.x.x",
     "marked": "0.2.x",
-    "mustache":"0.7.x",
+    "mustache": "0.7.x",
     "rimraf": "2.x.x",
     "js-yaml": "1.x.x",
     "codemirror": "5.2.x",
-    "jasmine":"2.3.x",
-    "minimist":"1.1.x"
+    "minimist": "1.1.x"
   },
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "coveralls": "istanbul cover jasmine --captureExceptions spec/cuervoSpec.js && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "bugs": "http://github.com/natedsaint/cuervo/issues",
-  "keywords": ["Jekyll","Blog","Heckle","Cuervo"],
+  "keywords": [
+    "Jekyll",
+    "Blog",
+    "Heckle",
+    "Cuervo"
+  ],
   "homepage": "https://github.com/natedsaint/cuervo",
   "author": "Nathan St. Pierre <nathan@nathanstpierre.com>",
-  "repository": {"type": "git", "url": "https://github.com/natedsaint/cuervo.git"}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natedsaint/cuervo.git"
+  },
+  "devDependencies" : {
+    "jasmine": "2.3.x"
+  }
 }
