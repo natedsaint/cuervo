@@ -16,7 +16,8 @@
     "markdown-it": "4.2.x",
     "minimist": "1.1.x",
     "mustache": "2.0.x",
-    "rimraf": "2.x.x"
+    "rimraf": "2.x.x",
+    "rss": "1.1.x"
   },
   "scripts": {
     "test": "jasmine",
