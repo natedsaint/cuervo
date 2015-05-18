@@ -1,6 +1,6 @@
 {
   "name": "cuervo",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "cuervo.js",
   "description": "Static site generator",
   "licenses": [
@@ -10,13 +10,13 @@
     }
   ],
   "dependencies": {
-    "dateformat": "1.x.x",
-    "marked": "0.3.x",
-    "mustache": "2.0.x",
-    "rimraf": "2.x.x",
-    "js-yaml": "3.3.x",
     "codemirror": "5.2.x",
-    "minimist": "1.1.x"
+    "dateformat": "1.x.x",
+    "js-yaml": "3.3.x",
+    "markdown-it": "4.2.x",
+    "minimist": "1.1.x",
+    "mustache": "2.0.x",
+    "rimraf": "2.x.x"
   },
   "scripts": {
     "test": "jasmine",
@@ -36,7 +36,7 @@
     "url": "https://github.com/natedsaint/cuervo.git"
   },
   "devDependencies": {
-    "coveralls": "^2.11.2",
+    "coveralls": "2.11.x",
     "istanbul": "0.3.x",
     "jasmine": "2.3.x"
   }
