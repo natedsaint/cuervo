@@ -23,6 +23,8 @@ treats `_posts`, `_layouts`, and `_includes` dirs. Your templates (_includes are
 Typical site format looks like this: 
 - _config.yml
 - contact.mustache
+- styles
+  - page.css
 - about.mustache
 - _posts
   - 2014-01-10-title.md
@@ -32,6 +34,17 @@ Typical site format looks like this:
   - header.mustache
   - footer.mustache
   - widget.md
+
+This will result in the following in (_site) :
+
+- feed.rss
+- contact.html
+- about.html
+- .htaccess
+- title.html
+- style
+  - page.css
+
 
 [1]: https://github.com/marijnh/heckle
 [2]: https://github.com/mojombo/jekyll
