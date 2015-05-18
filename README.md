@@ -1,7 +1,5 @@
 # Cuervo [![Build Status](https://travis-ci.org/natedsaint/cuervo.svg?branch=master)](https://travis-ci.org/natedsaint/cuervo) [![Coverage Status](https://coveralls.io/repos/natedsaint/cuervo/badge.svg?branch=master)](https://coveralls.io/r/natedsaint/cuervo?branch=master) [![Cuervo on NPM](https://img.shields.io/npm/v/cuervo.svg)](https://npmjs.org/package/cuervo) [![Dependency Status](https://gemnasium.com/natedsaint/cuervo.svg)](https://gemnasium.com/natedsaint/cuervo)
 
-A minimalistic static site generator based on the concept of markdown files for documents.
-
 ## Setup
 
 I'll go ahead and jump on the bandwagon and say at this point: this is NOT a stable
@@ -9,7 +7,9 @@ or finished project. It's a work in progress, and there's a good chance I'll slo
 (or rapidly) develop individual pieces as I go.
 
 
-If, against your own better judgment, you're still reading this, you can get this now by just typing `npm install -g cuervo`.
+If, against your own better judgment, you're still reading this, you can get this now by just typing
+
+`npm install -g cuervo`.
 
 When the dependencies have been installed, you should be able to
 change to the directory that contains your blog files, and run...
