@@ -1,4 +1,4 @@
-# Cuervo [![Build Status](https://travis-ci.org/natedsaint/cuervo.svg?branch=master)](https://travis-ci.org/natedsaint/cuervo) [![Coverage Status](https://coveralls.io/repos/natedsaint/cuervo/badge.svg?branch=master)](https://coveralls.io/r/natedsaint/cuervo?branch=master)
+# Cuervo [![Build Status](https://travis-ci.org/natedsaint/cuervo.svg?branch=master)](https://travis-ci.org/natedsaint/cuervo) [![Coverage Status](https://coveralls.io/repos/natedsaint/cuervo/badge.svg?branch=master)](https://coveralls.io/r/natedsaint/cuervo?branch=master) [![Cuervo on NPM](https://img.shields.io/npm/v/cuervo.svg)](https://npmjs.org/package/cuervo)
 
 A fork of a clone! [Heckle][1] gave me the idea, which Marijn Haverbeke describes as a "minimal [Jekyll][2] clone in node.js."
 
