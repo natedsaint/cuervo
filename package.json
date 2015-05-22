@@ -1,6 +1,6 @@
 {
   "name": "cuervo",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "main": "cuervo.js",
   "description": "Static site generator",
   "licenses": [
@@ -40,5 +40,8 @@
     "coveralls": "2.11.x",
     "istanbul": "0.3.x",
     "jasmine": "2.3.x"
+  },
+  "bin": {
+    "cuervo": "./cuervo.js"
   }
 }
