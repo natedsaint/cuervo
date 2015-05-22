@@ -10,7 +10,7 @@
     }
   ],
   "dependencies": {
-    "codemirror": "5.2.x",
+    "codemirror": "5.3.x",
     "dateformat": "1.x.x",
     "js-yaml": "3.3.x",
     "markdown-it": "4.2.x",
