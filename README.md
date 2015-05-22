@@ -9,7 +9,7 @@ or finished project. It's a work in progress, and there's a good chance I'll slo
 
 If, against your own better judgment, you're still reading this, you can get this now by just typing
 
-`npm install -g cuervo`.
+`npm install -g cuervo`
 
 When the dependencies have been installed, you should be able to
 change to the directory that contains your blog files, and run...
