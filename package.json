@@ -10,14 +10,14 @@
     }
   ],
   "dependencies": {
-    "codemirror": "5.3.x",
+    "codemirror": "5.12.x",
     "dateformat": "1.x.x",
-    "js-yaml": "3.3.x",
-    "markdown-it": "4.2.x",
-    "minimist": "1.1.x",
-    "mustache": "2.0.x",
+    "js-yaml": "3.5.x",
+    "markdown-it": "6.0.x",
+    "minimist": "1.2.x",
+    "mustache": "2.2.x",
     "rimraf": "2.x.x",
-    "rss": "1.1.x"
+    "rss": "1.2.x"
   },
   "scripts": {
     "test": "jasmine",
