@@ -38,8 +38,8 @@
   },
   "devDependencies": {
     "coveralls": "2.11.x",
-    "istanbul": "0.3.x",
-    "jasmine": "2.3.x"
+    "istanbul": "0.4.x",
+    "jasmine": "2.4.x"
   },
   "bin": {
     "cuervo": "./cuervo.js"
