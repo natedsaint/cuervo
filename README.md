@@ -1,4 +1,4 @@
-<p style="text-align:center;">
+<p align="center">
   <img src="/img/cuervo_logo.png">
 </p>
 
