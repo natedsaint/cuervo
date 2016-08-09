@@ -1,6 +1,8 @@
 # Cuervo [![Build Status](https://travis-ci.org/natedsaint/cuervo.svg?branch=master)](https://travis-ci.org/natedsaint/cuervo) [![Coverage Status](https://coveralls.io/repos/natedsaint/cuervo/badge.svg?branch=master)](https://coveralls.io/r/natedsaint/cuervo?branch=master) [![Cuervo on NPM](https://img.shields.io/npm/v/cuervo.svg)](https://npmjs.org/package/cuervo) [![Dependency Status](https://gemnasium.com/natedsaint/cuervo.svg)](https://gemnasium.com/natedsaint/cuervo)
 
+<p style="text-align:center">
 ![Cuervo Logo](/img/cuervo_logo.png)
+</p>
 
 ## Setup
 
