@@ -1,6 +1,6 @@
 {
   "name": "cuervo",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "main": "cuervo.js",
   "description": "Static site generator",
   "licenses": [
@@ -10,12 +10,12 @@
     }
   ],
   "dependencies": {
-    "codemirror": "5.17.x",
-    "dateformat": "1.x.x",
-    "js-yaml": "3.6.x",
-    "markdown-it": "7.0.x",
+    "codemirror": "5.23.x",
+    "dateformat": "2.0.x",
+    "js-yaml": "3.7.x",
+    "markdown-it": "8.2.x",
     "minimist": "1.2.x",
-    "mustache": "2.2.x",
+    "mustache": "2.3.x",
     "rimraf": "2.x.x",
     "rss": "1.2.x"
   },
