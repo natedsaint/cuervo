@@ -10,11 +10,11 @@
     }
   ],
   "dependencies": {
-    "codemirror": "5.23.x",
+    "codemirror": "5.25.x",
     "dateformat": "2.0.x",
     "eslint": "^3.19.0",
-    "js-yaml": "3.7.x",
-    "markdown-it": "8.2.x",
+    "js-yaml": "3.8.x",
+    "markdown-it": "8.3.x",
     "minimist": "1.2.x",
     "mustache": "2.3.x",
     "rimraf": "2.x.x",
