@@ -42,9 +42,9 @@
     "url": "https://github.com/natedsaint/cuervo.git"
   },
   "devDependencies": {
-    "coveralls": "2.11.x",
+    "coveralls": "2.13.x",
     "istanbul": "0.4.x",
-    "jasmine": "2.4.x"
+    "jasmine": "2.5.x"
   },
   "bin": {
     "cuervo": "./cuervo.js"
