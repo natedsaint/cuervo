@@ -1,6 +1,6 @@
 {
   "name": "cuervo",
-  "version": "0.3.8",
+  "version": "0.4.0",
   "main": "cuervo.js",
   "description": "Static site generator",
   "licenses": [
@@ -9,6 +9,9 @@
       "url": "https://raw.github.com/natedsaint/cuervo/master/LICENSE"
     }
   ],
+  "engines": {
+    "node": "7.2.0"
+  },
   "dependencies": {
     "codemirror": "5.25.x",
     "dateformat": "2.0.x",
