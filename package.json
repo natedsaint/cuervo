@@ -12,6 +12,7 @@
   "dependencies": {
     "codemirror": "5.23.x",
     "dateformat": "2.0.x",
+    "eslint": "^3.19.0",
     "js-yaml": "3.7.x",
     "markdown-it": "8.2.x",
     "minimist": "1.2.x",
@@ -21,6 +22,7 @@
   },
   "scripts": {
     "test": "jasmine",
+    "lint": "eslint '**/*.js'",
     "coveralls": "istanbul cover jasmine --captureExceptions spec/cuervoSpec.js && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "bugs": "http://github.com/natedsaint/cuervo/issues",
