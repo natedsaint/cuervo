@@ -13,15 +13,15 @@
     "node": "7.2.0"
   },
   "dependencies": {
-    "codemirror": "5.25.x",
-    "dateformat": "2.0.x",
+    "codemirror": "^5.29.0",
+    "dateformat": "^2.0.0",
     "eslint": "^4.7.1",
-    "js-yaml": "3.8.x",
-    "markdown-it": "8.3.x",
-    "minimist": "1.2.x",
-    "mustache": "2.3.x",
-    "rimraf": "2.x.x",
-    "rss": "1.2.x"
+    "js-yaml": "^3.10.0",
+    "markdown-it": "^8.3.0",
+    "minimist": "^1.2.0",
+    "mustache": "^2.3.0",
+    "rimraf": "^2.0.0",
+    "rss": "^1.2.0"
   },
   "scripts": {
     "test": "jasmine",
