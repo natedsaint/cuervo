@@ -4,18 +4,18 @@ var Cuervo = require("../lib/cuervo.js"),
     },
     app = new Cuervo(args);
 
-describe("cuervo", function() {
-    it("exists", function() {
+describe("cuervo", () => {
+    it("exists", () => {
         expect(Cuervo).toBeTruthy();
         
     });
 
-    it("can be instantiated", function() {
+    it("can be instantiated", () => {
         expect(app).toBeTruthy();
         expect(app instanceof Cuervo).toBe(true);
     });
 
-    it("calls printCuervo on instantiation", function() {
+    it("calls printCuervo on instantiation", () => {
         var newApp;
         spyOn(Cuervo.prototype,'printCuervo');
         newApp = new Cuervo(args);
@@ -23,17 +23,17 @@ describe("cuervo", function() {
         expect(newApp instanceof Cuervo).toBe(true);
     });
 
-    describe("cuervo.defaults", function() {
-        it("exists", function() {
+    describe("cuervo.defaults", () => {
+        it("exists", () => {
             expect(typeof app.defaults).toBe("object");
         });
     });
 
-    describe("cuervo.writeText", function() {
-        it("exists", function() {
+    describe("cuervo.writeText", () => {
+        it("exists", () => {
             expect(typeof app.writeText).toBe("function");
         });
-        it("calls the process stdout method", function() {
+        it("calls the process stdout method", () => {
             var TEST_TEXT = "test";
             spyOn(process.stdout,"write");
             app.writeText(TEST_TEXT);
@@ -41,8 +41,8 @@ describe("cuervo", function() {
         });
     });
 
-    describe("cuervo.readFrontMatter", function() {
-        it("exists", function() {
+    describe("cuervo.readFrontMatter", () => {
+        it("exists", () => {
             expect(typeof app.readFrontMatter).toBe("function");
         });
     });
