@@ -13,6 +13,11 @@
     "node": "7.2.0"
   },
   "dependencies": {
+    "cryptiles": "^4.1.2",
+    "sshpk": "^1.13.2",
+    "lodash": "^4.17.5",
+    "hoek": "^4.2.1",
+    "tough-cookie": "2.3.3", 
     "codemirror": "^5.29.0",
     "dateformat": "^2.0.0",
     "eslint": "^4.7.1",
