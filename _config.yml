@@ -1,0 +1,8 @@
+title: Cuervo
+description: "Jekyll-like blog-aware site management with nodejs/markdown/mustache. "
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions
